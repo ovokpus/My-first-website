@@ -4,9 +4,7 @@ function sendAlert(message) {
 
 function addTodoItem() {
     var todo =document.getElementById("todo-item");
-
     this.addToList(todo.value);
-
     todo.value = null;
 }
 
