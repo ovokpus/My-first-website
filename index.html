@@ -34,14 +34,16 @@
                         <input class="form-control" type="text" id="todo-item" placeholder="Todo Item">
                     </div>
                     <div class="col-2">
-                        <button type="button" class="btn btn-primary">Add Item</button>
+                        <button type="button" class="btn btn-primary" onclick="addTodoItem()">Add Item</button>
                     </div>
                 </form>
+                <ul id="todo-list" class="list-unstyled"></ul>
             </div>
         </div>
     </main>
 
     <!-- Optional JavaScript -->
+    <script src="todo.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
