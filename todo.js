@@ -3,7 +3,7 @@ function sendAlert(message) {
 }
 
 function addTodoItem() {
-    var todo =document.getElementById("todo-item");
+    var todo = document.getElementById("todo-item");
     this.addToList(todo.value);
     todo.value = null;
 }
@@ -15,3 +15,4 @@ function addToList(message) {
     item.appendChild(document.createTextNode(message));
     list.appendChild(item);
 }
+// Need function to add strike to element associated with event
