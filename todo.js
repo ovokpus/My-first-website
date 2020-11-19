@@ -3,6 +3,7 @@ var todoItems = [];
 
 function addTodoItem() {
     var todo = document.getElementById("todo-item");
+    
     var itemText = todo.value;
 
     this.removeError(this.getAlert());
